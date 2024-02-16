@@ -1,0 +1,32 @@
+.who-can-do-this-course {
+  padding: 50px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #000),
+    url("../Images/bg-guarenteed.jpg") fixed center center;
+}
+
+.course-heading h3,
+h5 {
+  color: #fff;
+  text-align: center;
+}
+
+.course-section {
+  padding-top: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.who-can-do-this-course-list {
+  display: flex;
+  align-items: center;
+}
+
+.who-can-do-this-course-list p {
+  color: #fff;
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+.who-can-do-this-course-list .course-icon {
+  color: yellow;
+}

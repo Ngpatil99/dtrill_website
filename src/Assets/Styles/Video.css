@@ -1,0 +1,126 @@
+.video {
+  padding: 50px 0;
+}
+
+.video-section {
+  border: 1px solid #dd1717;
+  padding: 10px;
+}
+
+.video-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #000),
+    url("../Images/bgRequestcallBack.jpg") local center center;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  position: relative;
+}
+
+.video-heading h3 {
+  color: #fff;
+  position: absolute;
+  bottom: 12%;
+  z-index: 8;
+  text-align: center;
+  width: 100%;
+}
+
+.video-play-wrapper {
+  width: 100%;
+  position: absolute;
+  bottom: 50%;  
+  text-align: center;
+  z-index: 8;
+}
+
+.video-play-btn {
+  color: #fff;
+  background-color: #dd1717;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+
+
+
+
+
+       
+.wrapper {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
+
+.video-main {
+  position: relative;
+  display: inline-block;
+}
+
+.video {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 100%;
+  background: transparent;
+  color: #fff;
+  display: inline-block;
+  background: #000000;
+  z-index: 999;
+}
+
+@keyframes waves {
+  0% {
+    -webkit-transform: scale(0.2, 0.2);
+    transform: scale(0.2, 0.2);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  }
+  50% {
+    opacity: 0.9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  }
+  100% {
+    -webkit-transform: scale(0.9, 0.9);
+    transform: scale(0.9, 0.9);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  }
+}
+
+.fa-play:before {
+  content: "\f04b";
+}
+
+.waves {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  border-radius: 100%;
+  right: -50px;
+  bottom: -50px;
+  z-index: -1;
+   -webkit-animation: waves 3s ease-in-out infinite;
+  animation: waves 3s ease-in-out infinite;
+}
+        
+.wave-1 {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.wave-2 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.wave-3 {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}

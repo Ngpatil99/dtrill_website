@@ -1,0 +1,138 @@
+.header-height {
+  height: 115px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.header-wrapper {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.logo {
+  height: 40px;
+}
+
+.top-header {
+  border-bottom: 1px solid rgba(2, 45, 98, 0.1);
+  background: #fff;
+}
+
+.top-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-header-left-wrapper {
+  width: 50%;
+  background-color:red;
+  display: flex;
+  align-items: center;
+  padding: 3px 0;
+  position: relative;
+}
+
+.top-header-left-wrapper span {
+  position: absolute;
+  right: -26px;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 44px solid black;
+  transform: rotate(180deg);
+  z-index: 0;
+}
+
+.top-header-right-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.addmission-text {
+  color: #fff;
+}
+
+.header-time {
+  color: #616c71;
+  padding-right: 20px;
+}
+
+.header-time p {
+  padding-left: 5px;
+  font-size: 15px;
+  color: #616c71;
+}
+
+.header-icon {
+  margin: 0 2px;
+  border: 0.5px solid #616c71;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+/* Main header */
+.main-header {
+  box-shadow: 2px 2px 4px 0 rgb(2 45 98/10%);
+  padding: 10px 20px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-wrapper{
+  width: 15%;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.header-menu ul {
+  display: flex;
+  margin: 0;
+}
+
+.header-menu ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.header-menu ul li a {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+
+.header-menu ul li a:hover {
+  color: #dd1717;
+}
+
+.header-right-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.header-btn-wrapper {
+  padding: 0 20px;
+}
+
+.header-btn-wrapper button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #dd1717;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+}

@@ -1,0 +1,53 @@
+.faqs {
+  padding: 50px 0;
+}
+
+.faq-outer-wrapper{
+  padding: 0 15px;
+}
+
+.faq-heading h3, .faq-heading h5 {
+  color: #000249;
+  text-align: center;
+}
+
+.faqs-section {
+  padding-top: 50px;
+}
+
+.faq-img-wrapper img {
+  width: 100%;
+}
+
+.main-que {
+  border-bottom: 0.5px solid #b8b9b9;
+  transition: 0.5s ease-in-out;
+}
+
+.que-icon {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px 0;
+  transition: 0.5s ease-in-out; 
+}
+
+.que-icon h5 {
+    color: #616c71;
+    opacity: 0.9;
+}
+
+.sub-menu {
+  display: none;
+}
+
+.sub-menu.is-open {
+  display: block;
+}
+
+.faq-minus-plus-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #cecece;
+}

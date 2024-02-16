@@ -1,0 +1,55 @@
+.training-module {
+  padding: 50px 0;
+}
+
+.module-heading h3, .module-heading h5 {
+  color: #000249;
+  text-align: center;
+}
+
+.module-wrapper {
+  background-color: #f6f6f6;
+  padding: 35px 50px;
+  border-radius: 20px;
+  display: grid;
+  place-content: center;
+}
+
+.training-main-wrapper {
+  padding-top: 50px;
+}
+
+.module-section{
+    padding: 10px;
+}
+
+.module-outer-wrapper {
+  position: relative;
+  border-bottom: 7px solid #1d1d1d1a;
+  border-radius: 30px;
+  transition: 0.5s ease-in-out;
+}
+
+.module-section:hover .module-outer-wrapper{
+    border-bottom: 7px solid #000249;
+}
+
+.module-wrapper h4 {
+  margin-bottom: 15px;
+  color: #0f3567;
+}
+
+.module-wrapper p {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.module-desc {
+  margin-top: 10px;
+}
+
+.module-desc p {
+  font-weight: 700;
+  color: #616c71;
+}

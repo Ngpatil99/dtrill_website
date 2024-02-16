@@ -1,0 +1,64 @@
+/*section 1*/
+.BestDmCrsSection {
+  /* background: linear-gradient(to top ,#000249,blue,black ) ; */
+  /* background: #000249; */
+  padding: 50px;
+}
+
+.bestDmCrsImageWrapper img {
+  width: 100%;
+}
+
+/*section 2*/
+.DMCourseListSection {
+  /* background: linear-gradient(rgba(16, 21, 187, 0.5), rgba(0, 0, 0, 1.5)),
+    url("../Images/Digitalmarketing/DM5.avif"); */
+  background: #000249;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px;
+}
+.DMCourseListingWrapper {
+  padding: 20px 0px;
+}
+.DMCourseListHeading h3 {
+  text-align: center;
+  color: #fff;
+}
+.DMCourseListing {
+  display: flex;
+  justify-content: center;
+}
+.DMCourseListing ul li {
+  color: #fff;
+}
+.DMCourseListingBottom-li {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+/* section 3 */
+
+.whatIsDmSection {
+  padding: 50px 0px;
+}
+
+.whatIsDmImage img {
+  width: 100%;
+}
+.whatIsDmWrapper {
+  padding: 50px;
+}
+.DMPointsWrapper{
+    display: flex;
+
+}
+.DMPoints {
+  padding: 50px;
+  
+}
+.DMPoints h5 {
+  color: black;
+}

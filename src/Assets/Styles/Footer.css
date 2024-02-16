@@ -1,0 +1,27 @@
+.main-footer{
+    background: radial-gradient(circle at 10% 20%, rgb(230, 121, 121) 0%, rgb(206, 5, 5) 90%);
+}
+.main-footer p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.main-footer ul{
+    list-style-type: none;
+    text-align: left;
+}
+.main-footer .foot-logo{
+    width: 30%;
+    
+}
+.footer-icon {
+    margin: 0 15px;
+    border: 0.5px solid white;
+    border-radius: 50%;
+    padding: 2px;
+  }
+  .footer-icon:hover{
+    background-color: black;
+    color: white;
+  }
+ 
+  
